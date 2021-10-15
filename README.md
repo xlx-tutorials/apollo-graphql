@@ -1,0 +1,1 @@
+# 接口地址：[https://lab.isaaclin.cn/nCoV/api/provinceName](https://lab.isaaclin.cn/nCoV/api/provinceName)
