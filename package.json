@@ -1,0 +1,27 @@
+{
+  "name": "apollo-graphql",
+  "version": "1.0.0",
+  "main": "server.js",
+  "author": "Yoki Yu <yokiyuqian@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon --exec babel-node server.js",
+    "build": "babel server.js CovidAPI.js -d dist",
+    "start": "node dist/server.js"
+  },
+  "dependencies": {
+    "@koa/router": "^10.1.1",
+    "apollo-datasource-rest": "^3.3.0",
+    "apollo-server-core": "^3.4.0",
+    "apollo-server-koa": "^3.4.0",
+    "graphql": "^15.6.1",
+    "koa": "^2.13.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.8",
+    "@babel/node": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "nodemon": "^2.0.13"
+  }
+}
